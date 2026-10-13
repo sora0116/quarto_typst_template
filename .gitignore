@@ -1,0 +1,16 @@
+.Rhistory
+.RData
+.Rproj.user/
+
+# Track the portable renv settings and lockfile, but not machine-specific files.
+.renv/library/
+.renv/sandbox/
+
+# Quarto render and preview artefacts
+.quarto/
+_output/
+*.pdf
+*.html
+
+/.quarto/
+**/*.quarto_ipynb

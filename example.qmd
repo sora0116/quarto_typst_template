@@ -1,0 +1,16 @@
+---
+title: "Quarto + Typst + R"
+format: typst
+execute:
+  echo: true
+---
+
+この文書は Docker 上の Quarto、内蔵 Typst、R 実行環境を確認するための最小例です。
+
+```{r}
+summary(cars)
+```
+
+```{r}
+plot(cars, main = "cars dataset")
+```

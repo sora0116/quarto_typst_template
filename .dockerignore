@@ -1,0 +1,9 @@
+.git
+.quarto
+.renv/library
+.renv/sandbox
+_output
+*.pdf
+*.html
+.Rhistory
+.RData
